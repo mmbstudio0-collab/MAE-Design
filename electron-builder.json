@@ -1,0 +1,28 @@
+{
+  "appId": "com.karantinahatti.app",
+  "productName": "Karantina Hatti",
+  "extraMetadata": {
+    "main": "electron/main.cjs"
+  },
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "public/icon.ico",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "public/icon.ico"
+  },
+  "portable": {
+    "artifactName": "KarantinaHatti-Portable.exe"
+  }
+}

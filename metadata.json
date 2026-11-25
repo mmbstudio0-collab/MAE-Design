@@ -1,0 +1,8 @@
+{
+  "name": "Karantina Hattı",
+  "description": "Google Maps uydu haritası üzerinde üstten görünümlü taktiksel zombi tahliye ve ARPG/RTS oyunu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

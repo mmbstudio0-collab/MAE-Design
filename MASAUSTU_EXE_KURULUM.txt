@@ -1,0 +1,20 @@
+KARANTINA HATTI - MASAUSTU (.EXE) ve PWA KURULUM REHBERI
+=========================================================
+
+SECENEK 1: TARAYICIDAN ANINDA MASAUSTU UYGULAMASI (PWA)
+-------------------------------------------------------
+1. Oyunu Chrome veya Edge tarayicinizda acin.
+2. Sag ust menudeki "Masaustune Kur" dugmesine tiklayin.
+3. Oyun bagimsiz pencerede acilir ve masaustunuze kisayol eklenir.
+   (Google Maps anahtari halihazirda canli ortama entegredir.)
+
+SECENEK 2: WINDOWS BILGISAYARINIZDA TEK DOSYA .EXE URETME
+---------------------------------------------------------
+1. AI Studio'dan projeyi ZIP olarak indirip masaustune cikartin.
+2. Bilgisayarinizda Node.js (https://nodejs.org - LTS) kurulu olsun.
+3. Klasor icindeki "build-windows-exe.bat" dosyasina cift tiklayin.
+4. Sizden Google Maps API anahtariniz istendiginde yapistirin (veya onceden
+   klasore ".env" dosyasi acip VITE_GOOGLE_MAPS_API_KEY=... seklinde yazin).
+5. Islem tamamlandiginda:
+      release\KarantinaHatti-Portable.exe
+   dosyasi hazir olacaktir. Cift tiklayip masaustunden dogrudan oynayabilirsiniz.
